@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+finding keys of all unlock boxes
+"""
 
 
 def canUnlockAll(boxes):
