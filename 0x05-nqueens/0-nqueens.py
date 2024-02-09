@@ -59,7 +59,7 @@ def exists(member):
 
 def built_in(row, group):
     """
-    
+
     """
     global solutions
     global n
