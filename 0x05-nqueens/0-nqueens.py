@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-N queens game
+N queens
 """
 
 
