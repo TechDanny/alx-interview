@@ -90,5 +90,5 @@ def get_solutions():
 
 n = get_input()
 get_solutions()
-for solution in sorted(solutions):
+for solution in sorted(solutions, key=lambda x: x[0]):
     print(solution)
