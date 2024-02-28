@@ -16,5 +16,5 @@ def makeChange(coins, total):
     for x in range(1, total + 1):
         for n in coins:
             if x - n >= 0:
-                dp[x] = min(dp[x], 1 + dp[x - n]) if x - n >= 0 else dp[x]
+                dp[x] = dp[x] if dp[x] <= 1 + dp[x - n] else 1 + dp[x - n]
     return dp[total] if dp[total] != total + 1 else -1
