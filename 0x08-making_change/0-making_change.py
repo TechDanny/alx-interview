@@ -4,7 +4,10 @@ Change comes from within
 """
 
 
-def makeChange(coins, total):
+from typing import List
+
+
+def makeChange(coins: list[int], total: int) -> int:
     """
     determines the fewest number of coins needed to meet a given amount
     """
